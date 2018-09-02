@@ -1,0 +1,4 @@
+add_executable(FractalizationASCII fractalization_ascii.cpp)
+
+target_link_libraries(FractalizationASCII PRIVATE Fractalization)
+fractalization_target_compile_options(FractalizationASCII)
