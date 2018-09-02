@@ -16,6 +16,18 @@ Fractalization provides CMake support. You can use CMake to build the samples an
 
 The only dependency required to use Fractalization is [Eigen3](http://eigen.tuxfamily.org/index.php?title=Main_Page). One of the samples requires [SFML](https://www.sfml-dev.org/).
 
+### Samples
+
+If you want to check some examples, Fractalization includes some sample programs in the samples subfolder.
+
+####  ASCII
+
+![ASCII](https://user-images.githubusercontent.com/3092211/44953339-c85c9d00-ae8b-11e8-9429-7245a29b3a17.png)
+
+####  SFML
+
+![SFML](https://user-images.githubusercontent.com/3092211/44953340-cc88ba80-ae8b-11e8-90ca-aeda9f7fb925.png)
+
 ## Development
 
 ### Compiler support
