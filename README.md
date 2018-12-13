@@ -1,6 +1,6 @@
 # Fractalization
 
-Fractalization is a header-only fractal generation library, implemented using C++17. This library splits the fractal generation process in three different parts:
+Fractalization is a header-only fractal generation library, implemented using C++17. This library splits the fractal generation process in three different components:
 
 **Transformation:** Given the position of one of the points of the image, obtains the complex number that it is going to display.
 
@@ -8,13 +8,12 @@ Fractalization is a header-only fractal generation library, implemented using C+
 
 **Output:** Converts the number of iterations obtained in the previous step to the desired output format, which could be an RGBA pixel, ASCII...
 
-Fractalization allows to implement and compose these parts in order to create any desired fractal generator, in compile time.
-
+Fractalization allows to compose different component implementations to create a fractal generator. This fractal generator class is generated in compile-time.
 ## Getting Started
 
 Fractalization provides CMake support. You can use CMake to build the samples and tests, or to install the library. Fractalization also supports Cmake's find_package command. Alternatively, you can download Fractalization and add its include folder to your project's header search path.
 
-The only dependency required to use Fractalization is [Eigen3](http://eigen.tuxfamily.org/index.php?title=Main_Page). One of the samples requires [SFML](https://www.sfml-dev.org/).
+The only dependency required to use Fractalization is [Eigen3](http://eigen.tuxfamily.org/index.php?title=Main_Page). [SFML](https://www.sfml-dev.org/) is an optional dependency, and it is used by one of the sample programs.
 
 ### Samples
 
@@ -32,7 +31,7 @@ If you want to check some examples, Fractalization includes some sample programs
 
 ### Compiler support
 
-This project has been developed and tested using [Clang](https://clang.llvm.org/), [GCC](https://gcc.gnu.org/) and [Microsoft Visual Studio](https://visualstudio.microsoft.com/). You will need a version that supports most of the features of the C++17 standard.
+This project has been developed and tested using [Clang](https://clang.llvm.org/), [GCC](https://gcc.gnu.org/) and [Microsoft Visual Studio](https://visualstudio.microsoft.com/) and it has been tested on Linux and Windows. You will need a compiler version that supports most of the features of the C++17 standard.
 
 ### Testing
 
@@ -46,7 +45,7 @@ Fractalization follows the [Google C++ Style Guide](https://google.github.io/sty
 * C++ file extension is cpp. Header file extension is hpp.
 * Filenames and folder names are all lowercase and use underscores (_) as separator.
 
-The project supports [clang-format](https://clang.llvm.org/docs/ClangFormat.html); check .clang-format and .clang-tidy for details.
+The project supports [clang-format](https://clang.llvm.org/docs/ClangFormat.html); check the [.clang-format](.clang-format) and [.clang-tidy](.clang-tidy) files for details.
 
 ### Versioning
 

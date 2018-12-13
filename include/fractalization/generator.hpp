@@ -49,7 +49,7 @@ class Generator {
   std::enable_if_t<
       std::is_base_of<std::forward_iterator_tag, typename std::iterator_traits<FwdIt>::iterator_category>::value, void>
   DoGenerate(Parallel /* tag */, FwdIt output_begin) const {
-    // ToDo Try STL algorithms with execution policies when they are implemented in GCC and clang.
+    // ToDo Switch to parallel STL algorithms with execution policies when they are implemented in GCC and clang.
     std::uint32_t output_idx = 0;
 
     auto num_tasks = std::min(transformation_.width, transformation_.height);
