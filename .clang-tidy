@@ -1,4 +1,4 @@
-Checks:          '*,-header-filter=.*,-clang-analyzer-alpha.*,-fuchsia-default-arguments,-fuchsia-overloaded-operator,-clang-diagnostic-switch-enum,-cppcoreguidelines-pro-type-union-access'
+Checks:          '*,-header-filter=.*,-clang-analyzer-alpha.*,-fuchsia-default-arguments,-fuchsia-overloaded-operator,-fuchsia-trailing-return,-clang-diagnostic-switch-enum,-cppcoreguidelines-pro-type-union-access'
 AnalyzeTemporaryDtors: true
 FormatStyle:     file
 HeaderFilterRegex: 'include/.*'
