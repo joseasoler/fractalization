@@ -2,4 +2,4 @@
 
 #include "catch2/catch.hpp"
 
-TEST_CASE("All test cases reside in other .cpp files") {}
+// See https://github.com/catchorg/Catch2/blob/master/docs/slow-compiles.md
