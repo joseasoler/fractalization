@@ -11,13 +11,13 @@ Fractalization is a header-only fractal generation library, implemented using C+
 Fractalization allows to compose different component implementations to create a fractal generator. This fractal generator class is generated in compile-time.
 ## Getting Started
 
-Fractalization provides CMake support. You can use CMake to build the samples and tests, or to install the library. Fractalization also supports Cmake's find_package command. Alternatively, you can download Fractalization and add its include folder to your project's header search path.
+Fractalization provides CMake support. You can use CMake to build samples and tests, or to install the library. Fractalization also supports Cmake's find_package command. Alternatively, you can download Fractalization and add its include folder to your project's header search path.
 
-The only dependency required to use Fractalization is [Eigen3](http://eigen.tuxfamily.org/index.php?title=Main_Page). [SFML](https://www.sfml-dev.org/) is an optional dependency, and it is used by one of the sample programs.
+The only dependency required to use Fractalization is [Eigen3](http://eigen.tuxfamily.org/index.php?title=Main_Page). [SFML](https://www.sfml-dev.org/) is an optional dependency, only used by one of the sample programs.
 
 ### Samples
 
-If you want to check some examples, Fractalization includes some sample programs in the samples subfolder.
+Fractalization includes some sample programs in the samples subfolder.
 
 ####  ASCII
 
@@ -35,7 +35,7 @@ This project has been developed and tested using [Clang](https://clang.llvm.org/
 
 ### Testing
 
-Fractalization uses [Catch2](https://github.com/catchorg/Catch2) for its tests, and they are built by the FractalizationTests target. Check the [Command line](https://github.com/catchorg/Catch2/blob/master/docs/command-line.md) section of the Catch2 documentation for details on how to run the tests.
+Fractalization uses [Catch2](https://github.com/catchorg/Catch2) for its tests, which are built by the FractalizationTests target. Check the [Command line](https://github.com/catchorg/Catch2/blob/master/docs/command-line.md) section of the Catch2 documentation for details on how to run the tests.
 
 ### Coding style
 
